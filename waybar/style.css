@@ -1,0 +1,41 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 7 Free", "Material Design Icons", "Noto Color Emoji";
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: #282828;
+    color: #ebdbb2;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #ebdbb2;
+}
+
+#workspaces button.active {
+    background: #d79921;
+    color: #282828;
+}
+
+#clock {
+    color: #98971a;
+    padding: 0 10px;
+}
+
+#battery {
+    color: #689d6a;
+    padding: 0 10px;
+}
+
+#network {
+    color: #689d6a;
+    padding: 0 10px;
+}
+
+#pulseaudio {
+    color: #458588;	
+    padding: 0 10px;
+}

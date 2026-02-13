@@ -1,0 +1,19 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "bluetooth", "pulseaudio", "battery"],
+    "network": {
+        "format-wifi": "{essid}",
+	"format-disconnected": "Disconnected",
+	"tooltip-format": "{ipaddr}"
+    },
+    "bluetooth": {
+        "format": "{status}",
+	"format-connected": "{device_alias}",
+	"tooltip-format": "{device_address}"
+    }
+}
