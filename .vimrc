@@ -50,7 +50,10 @@ set smartindent
 " =====
 " langs
 " =====
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапролдьтщзйкныегмцчня;abcdefghijklmnopqrstuvwxyz
+
+set langmap=\
+      \ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,\
+      \фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 " =====
 " Security
